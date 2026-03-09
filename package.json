@@ -1,0 +1,15 @@
+{
+  "name": "cosmos-tcg-relay",
+  "version": "1.0.0",
+  "description": "Cosmos TCG WAN relay server",
+  "main": "cosmos-relay.js",
+  "scripts": {
+    "start": "node cosmos-relay.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
